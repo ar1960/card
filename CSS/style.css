@@ -13,10 +13,24 @@ main {
     background-color: black;
     border-radius: 15px;
     overflow: hidden;
+    z-index: 1;
 }
-.card img {
+.card .background {
+    z-index: 2;
+}
+.card .background img{
     width: 100%;
+}
+.card .profile-picture {
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+.card .profile-picture img{
+    width: 100px;
+    border-radius: 50%;
 }
 .card h1 {
     color: white;
+    text-align: center;
 }
