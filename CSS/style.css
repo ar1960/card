@@ -14,14 +14,14 @@ main {
     border-radius: 15px;
     overflow: hidden;
 }
-.card .background img{
+.card .background img {
     width: 100%;
 }
 .card .profile-picture {
     display: flex;
     justify-content: center;
 }
-.card .profile-picture img{
+.card .profile-picture img {
     width: 100px;
     border-radius: 50%;
 }
