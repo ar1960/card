@@ -38,6 +38,11 @@ main {
     color: white;
     text-align: center;
 }
+.card p {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
 .card button {
    padding:8px;
     border-radius: 50px;
